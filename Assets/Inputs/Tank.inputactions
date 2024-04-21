@@ -37,7 +37,18 @@
                 {
                     "name": "",
                     "id": "6f35b00a-33b4-44b1-b005-3700bb97237d",
-                    "path": "",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e9b96e73-aba8-4925-aa5e-632302732d08",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
