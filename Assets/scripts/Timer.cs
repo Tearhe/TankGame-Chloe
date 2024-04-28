@@ -17,10 +17,8 @@ public class Timer : MonoBehaviour
             remainingTime = 0;
             // GameOverr();
             timerText.color = Color.red;
-            public void GameOver() 
-            {
-                SceneManager.LoadSceneAsync(2);
-            }
+            SceneManager.LoadSceneAsync(2); // montrer la scene de Game Over car Timer finis
+            
         }
         int minutes = Mathf.FloorToInt(remainingTime / 60);
         int seconds = Mathf.FloorToInt(remainingTime % 60);
